@@ -1,0 +1,38 @@
+.dashboardadmin{
+    height:121vh;
+    background-color: rgb(238,238,238);
+    margin-top:-5vh;
+    padding-top: 2vh;
+}
+.productsales{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 2vh;
+}
+.productsale{
+    background-color: white;
+    height:20vh;
+    width:22vw;
+    margin-bottom:4vh;
+    border-radius: 7px;
+    /* border:1px solid black ; */
+    transition: linear 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.productsale:hover{
+    transform:translateY(1vh);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.productsale h2{
+    margin-left:1vw;
+    margin-top:3vh;
+    margin-bottom: 1vh;
+    
+}
+.productsale p{
+    font-size: 3vmin;
+    margin-left:1vw;
+    
+}
